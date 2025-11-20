@@ -1,0 +1,27 @@
+name: metaquery_action
+channels:
+  - https://aws-ml-conda.s3.us-west-2.amazonaws.com
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch=2.3.0
+  - pytorch-cuda=12.1
+  - torchvision
+  - torchaudio
+  - pip
+  - pip:
+    - transformers[deepspeed]==4.49.0
+    - accelerate
+    - diffusers==0.34.0
+    - torchmetrics[image]==1.6.3
+    - datasets==4.0.0
+    - numpy==1.26.4
+    - wandb
+    - gradio
+    - pycocotools
+    - evaluate
+    - tabulate
+    - piq
+    - sentencepiece
+    - bitsandbytes

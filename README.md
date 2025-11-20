@@ -1,4 +1,5 @@
 # Mantis
+# Note: This repository is currently undergoing refactoring, which is expected to be completed by December 4th. Please note that running the code at this time may result in errors.
 The official implementation of Mantis
 
 

@@ -2,19 +2,30 @@
 
 
 
-<h2 align="center" style="color:#567053">
-  Mantis: A Versatile Vision-Language-Action Model with Disentangled Visual Foresight</a>
-</h2>
+<h3 align="center">
+  <a href="https://github.com/zhijie-group/Mantis" style="color:#567053">Mantis: A Versatile Vision-Language-Action Model<br>with Disentangled Visual Foresight</a>
+</h3>
 
 <h4 align="center"> 
   If you find our project helpful, please give us a star ⭐ to support us 🙏🙏
 </h4>
 
+<h5 align="center">
+  [**📄 Paper**](https://arxiv.org/pdf/2511.16175) | [**🤗 Checkpoints**](https://huggingface.co/collections/Yysrc/mantis) | [**🤗 Checkpoints**](./LICENSE)
+</h5>
+
+
 
 
 <h5 align="center">
-[![arXiv](https://img.shields.io/badge/Arxiv-2511.16175-AD1C18.svg?logo=arXiv)](https://arxiv.org/pdf/2511.16175)
+
 </h5>
+
+
+
+
+
+
 
 ![head](assets/head.png)
 

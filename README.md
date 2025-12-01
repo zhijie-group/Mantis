@@ -1,6 +1,3 @@
-#### Note: This repository is currently undergoing refactoring, which is expected to be completed by December 4th. Please note that running the code at this time may result in errors.
-
-
 
 <h3 align="center">
   <a href="https://github.com/zhijie-group/Mantis" style="color:#567053">Mantis: A Versatile Vision-Language-Action Model<br>with Disentangled Visual Foresight</a>
@@ -18,6 +15,9 @@
 
 ![head](assets/head.png)
 
+- **Disentangled Visual Foresight** provides compact, action-relevant look-ahead cues without overburdening the backbone.
+- **Progressive Multimodal Training** preserves the language understanding and reasoning capabilities of the VLM backbone.
+- **Adaptive Temporal Ensemble** dynamically adjusts temporal ensembling strength, reducing inference cost while maintaining stable control.
 
 
 ## 📘 Contents
@@ -154,7 +154,7 @@ Modify the `task_suite_name` parameter in the script to evaluate different task 
 
 
 ## 🔧 Training
->Please first download the [LIBERO datasets](https://huggingface.co/datasets/Yysrc/mantis_libero_lerobot) and the [base Mantis model](https://huggingface.co/Yysrc/Mantis-Base)
+>Please first download the [LIBERO datasets](https://huggingface.co/datasets/Yysrc/mantis_libero_lerobot) and the [base Mantis model](https://huggingface.co/Yysrc/Mantis-Base).
 
 First, create the training conda environment:
 ```
